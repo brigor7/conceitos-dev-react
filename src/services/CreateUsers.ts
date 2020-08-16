@@ -1,8 +1,10 @@
-export default function CreateUsers(
-  name = '',
-  email: string,
-  password: string
-) {
+interface CreateUserData {
+  name?: string;
+  email: string;
+  password: string;
+}
+
+export default function CreateUsers({ name, email, password }: CreateUserData) {
   const user = {
     name,
     email,
