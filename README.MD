@@ -1,5 +1,15 @@
 Criação de projeto com typescript
 
+() GIT - Versionar aplicação 
+  ()git init 
+  () touch .gitignore
+    ()  /node_modules 
+        yarn.lock 
+        .gitignore
+  () git commit -m "first commit"
+  () git remote add origin https://github.com/brigor7/conceitos-dev-react.git
+  () git push -u origin master
+
 () Criação de projeto typescript com pasta src
   executar: md typescript > md src
 
@@ -16,12 +26,6 @@ Criação de projeto com typescript
   () Instaciar app com express
   () Criar rota get()
 
-() GIT - Versionar aplicação 
-  ()git init 
-  () touch .gitignore
-    ()  /node_modules 
-        yarn.lock 
-        .gitignore
 
 () Configurar e subir aplicação com typescript
   () yarn tsc --init //Para criar configurações iniciais do typescript em tsconfig.json
@@ -35,4 +39,5 @@ Criação de projeto com typescript
       "start": "nodemon dist/index.js"
     },
   ()yarn start
+
 
