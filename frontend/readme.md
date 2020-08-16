@@ -32,7 +32,7 @@ Geração de projeto/arquivo react
   @babel/preset-react: Transpilação de arquivos em formato react para uma versão js mais antigo. 
   @babel/plugin-transform-runtime: 
 
-  (✔) Criação de arquivo babel.config.js na pasta raiz de project
+  (✔) Criação de arquivo babel.config.js na pasta raiz de project 
     module.exports = {
       presets: ['@babel/preset-env', '@babel/preset-react'],
       plu gins: ['@babel/plugin-transform-runtime'],
