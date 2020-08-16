@@ -1,3 +1,9 @@
-/node_modules
 yarn.lock
+frontend/yarn.lock
+backend/yarn.lock
 /dist
+/frontend/dist
+/node_modules
+/frontend/node_modules/
+/backend/node_modules/
+/frontend/yarn-error.log
