@@ -1,3 +1,7 @@
+O repository conceitos-dev-react traz alguns projetos usando react, typescript.
+As pastas frontend e backend estão integradas. Estas não se integram com o conteudo da pasta inicial ./
+Na pasta frontend, o readme.md informa os passos para geração do ambiente para desenvolvimento com react.
+
 Criação de projeto com typescript
 
 () GIT - Versionar aplicação 
